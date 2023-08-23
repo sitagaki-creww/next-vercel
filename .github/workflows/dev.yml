@@ -7,7 +7,7 @@ on:
     branches:
       - main
 jobs:
-  Deploy-Production:
+  deploy-development:
     runs-on: ubuntu-latest
     steps:
       - name: checkout main branch

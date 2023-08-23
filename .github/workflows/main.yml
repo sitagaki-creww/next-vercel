@@ -7,7 +7,7 @@ on:
     tags:
       - "v*"
 jobs:
-  Deploy-Production:
+  deploy-production:
     runs-on: ubuntu-latest
     steps:
       - name: checkout main branch
